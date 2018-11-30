@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="com.demoqa.tests.ProductOrder">
+        <methods>
+          <include name="closeBrowsers"/>
+          <include name="LaunchDemoQAPage"/>
+          <include name="AddproductToCart"/>
+        </methods>
+      </class> <!-- com.demoqa.tests.ProductOrder -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->
