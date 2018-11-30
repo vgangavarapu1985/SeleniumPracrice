@@ -1,0 +1,154 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 239198275,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": ": user open the browser and load the url",
+            "match": {
+              "location": "LogInStepDefinition.user_open_the_browser_and_load_the_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7020260728,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUP()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Verify Login functionality with valid credentials",
+        "description": "",
+        "id": "validate-login-functionality-of-new-tours-application;verify-login-functionality-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 85657319,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowsers()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 88312471,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": ": home page is displayed",
+            "match": {
+              "location": "LogInStepDefinition.home_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 532221495,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": ": user clicks on Log In Link",
+            "match": {
+              "location": "LogInStepDefinition.user_clicks_on_Log_In_Link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 174253097,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": ": enter User name \"gvkishore.kish@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gvkishore.kish@gmail.com",
+                  "offset": 19
+                }
+              ],
+              "location": "LogInStepDefinition.enter_User_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92246771,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": ": enter Password \"test1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 18
+                }
+              ],
+              "location": "LogInStepDefinition.enter_Password(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6716983410,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": ": click on Login Link",
+            "match": {
+              "location": "LogInStepDefinition.click_on_Login_Link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68027849,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": ": validate DashBoard Page displayed.",
+            "match": {
+              "location": "LogInStepDefinition.validate_DashBoard_Page_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Validate Login Functionality of New Tours Application",
+    "description": "",
+    "id": "validate-login-functionality-of-new-tours-application",
+    "keyword": "Feature",
+    "uri": "./src/test/resources/features/login.feature"
+  }
+]

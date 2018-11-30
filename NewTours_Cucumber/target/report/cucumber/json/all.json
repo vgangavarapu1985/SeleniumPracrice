@@ -1,0 +1,2425 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 227592069,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": ": user open the browser and load the url",
+            "match": {
+              "location": "LogInStepDefinition.user_open_the_browser_and_load_the_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10198101245,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUP()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Verify Login functionality with valid credentials",
+        "description": "",
+        "id": "validate-login-functionality-of-new-tours-application;verify-login-functionality-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 81907340,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowsers()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 68014623,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": ": home page is displayed",
+            "match": {
+              "location": "LogInStepDefinition.home_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 451241304,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": ": user clicks on Log In Link",
+            "match": {
+              "location": "LogInStepDefinition.user_clicks_on_Log_In_Link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 168313034,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": ": enter User name \"gvkishore.kish@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gvkishore.kish@gmail.com",
+                  "offset": 19
+                }
+              ],
+              "location": "LogInStepDefinition.enter_User_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 84980199,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": ": enter Password \"test1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 18
+                }
+              ],
+              "location": "LogInStepDefinition.enter_Password(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1769131552,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": ": click on Login Link",
+            "match": {
+              "location": "LogInStepDefinition.click_on_Login_Link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52141316,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": ": validate DashBoard Page displayed.",
+            "match": {
+              "location": "LogInStepDefinition.validate_DashBoard_Page_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Validate Login Functionality of New Tours Application",
+    "description": "",
+    "id": "validate-login-functionality-of-new-tours-application",
+    "keyword": "Feature",
+    "uri": "./src/test/resources/features/login.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6528357169,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUP()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Verify the profile functionality of New Tours Application",
+        "description": "",
+        "id": "profile-functionality-of-new-tours-applicaiton;verify-the-profile-functionality-of-new-tours-application;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 139896986,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowsers()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1574829,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ": user open the browser and load the url",
+            "match": {
+              "location": "LogInStepDefinition.user_open_the_browser_and_load_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 66066033,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": ": Home Page is displayed",
+            "match": {
+              "location": "RegisterProfileStepDefinition.home_Page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 672982055,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": ": user clicks on Register Button",
+            "match": {
+              "location": "RegisterProfileStepDefinition.user_clicks_on_Register_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45275811,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": ": Register page displayed",
+            "match": {
+              "location": "RegisterProfileStepDefinition.register_page_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 214210926,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": ": enter First Name Kishore",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kishore",
+                  "offset": 19
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_First_Name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 204076721,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": ": enter Last Name Gangavarapu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gangavarapu",
+                  "offset": 18
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_Last_Name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 197151484,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": ": enter Phone 8324999009",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8324999009",
+                  "offset": 14
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_Phone(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 304541533,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": ": enter email gvkishore.kish@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gvkishore.kish@gmail.com",
+                  "offset": 14
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_email(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 207931235,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": ": enter address springdalerd",
+            "match": {
+              "arguments": [
+                {
+                  "val": "springdalerd",
+                  "offset": 16
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 193503477,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": ": enter city waukesha",
+            "match": {
+              "arguments": [
+                {
+                  "val": "waukesha",
+                  "offset": 13
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_city(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 190646086,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": ": enter state wisconsin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "wisconsin",
+                  "offset": 14
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_state(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 156560481,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": ": enter postal code 53186",
+            "match": {
+              "arguments": [
+                {
+                  "val": "53186",
+                  "offset": 20
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_postal_code(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129523421,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": ": enter country UNITED STATES",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UNITED STATES",
+                  "offset": 16
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_country(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 265096985,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": ": enter username gvenkat2642@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gvenkat2642@gmail.com",
+                  "offset": 17
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 178157957,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": ": enter password test1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 17
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 188449175,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": ": enter confirm password test1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 25
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_confirm_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1846203897,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": ": click on submit button",
+            "match": {
+              "location": "RegisterProfileStepDefinition.click_on_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 144214,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": ": Registration completed successfully.",
+            "match": {
+              "location": "RegisterProfileStepDefinition.registration_completed_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6379325660,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUP()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Verify the profile functionality of New Tours Application",
+        "description": "",
+        "id": "profile-functionality-of-new-tours-applicaiton;verify-the-profile-functionality-of-new-tours-application;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 69490892,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowsers()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1264216,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ": user open the browser and load the url",
+            "match": {
+              "location": "LogInStepDefinition.user_open_the_browser_and_load_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 85784893,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": ": Home Page is displayed",
+            "match": {
+              "location": "RegisterProfileStepDefinition.home_Page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 561375252,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": ": user clicks on Register Button",
+            "match": {
+              "location": "RegisterProfileStepDefinition.user_clicks_on_Register_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39265347,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": ": Register page displayed",
+            "match": {
+              "location": "RegisterProfileStepDefinition.register_page_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 164383854,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": ": enter First Name Kishore",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kishore",
+                  "offset": 19
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_First_Name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 193449717,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": ": enter Last Name Gangavarapu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gangavarapu",
+                  "offset": 18
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_Last_Name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 197436071,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": ": enter Phone 8324999009",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8324999009",
+                  "offset": 14
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_Phone(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 307562765,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": ": enter email gvkishore.kish@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gvkishore.kish@gmail.com",
+                  "offset": 14
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_email(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 199674368,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": ": enter address springdalerd",
+            "match": {
+              "arguments": [
+                {
+                  "val": "springdalerd",
+                  "offset": 16
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 174649045,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": ": enter city waukesha",
+            "match": {
+              "arguments": [
+                {
+                  "val": "waukesha",
+                  "offset": 13
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_city(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 194536012,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": ": enter state wisconsin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "wisconsin",
+                  "offset": 14
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_state(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164733294,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": ": enter postal code 53186",
+            "match": {
+              "arguments": [
+                {
+                  "val": "53186",
+                  "offset": 20
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_postal_code(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139320557,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": ": enter country UNITED STATES",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UNITED STATES",
+                  "offset": 16
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_country(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 259158629,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": ": enter username gvenkat2642@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gvenkat2642@gmail.com",
+                  "offset": 17
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 175321899,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": ": enter password test1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 17
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 184400101,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": ": enter confirm password test1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 25
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_confirm_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1489903769,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": ": click on submit button",
+            "match": {
+              "location": "RegisterProfileStepDefinition.click_on_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 296960,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": ": Registration completed successfully.",
+            "match": {
+              "location": "RegisterProfileStepDefinition.registration_completed_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5590678342,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUP()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Verify the profile functionality of New Tours Application",
+        "description": "",
+        "id": "profile-functionality-of-new-tours-applicaiton;verify-the-profile-functionality-of-new-tours-application;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 194060278,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowsers()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 851202,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ": user open the browser and load the url",
+            "match": {
+              "location": "LogInStepDefinition.user_open_the_browser_and_load_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 61658985,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": ": Home Page is displayed",
+            "match": {
+              "location": "RegisterProfileStepDefinition.home_Page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 568359370,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": ": user clicks on Register Button",
+            "match": {
+              "location": "RegisterProfileStepDefinition.user_clicks_on_Register_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41661511,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": ": Register page displayed",
+            "match": {
+              "location": "RegisterProfileStepDefinition.register_page_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 222327419,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": ": enter First Name Kishore",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kishore",
+                  "offset": 19
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_First_Name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 200576342,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": ": enter Last Name Gangavarapu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gangavarapu",
+                  "offset": 18
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_Last_Name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 193235957,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": ": enter Phone 8324999009",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8324999009",
+                  "offset": 14
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_Phone(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 287497878,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": ": enter email gvkishore.kish@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gvkishore.kish@gmail.com",
+                  "offset": 14
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_email(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 196089935,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": ": enter address springdalerd",
+            "match": {
+              "arguments": [
+                {
+                  "val": "springdalerd",
+                  "offset": 16
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 171398266,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": ": enter city waukesha",
+            "match": {
+              "arguments": [
+                {
+                  "val": "waukesha",
+                  "offset": 13
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_city(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 189168110,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": ": enter state wisconsin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "wisconsin",
+                  "offset": 14
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_state(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 162569664,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": ": enter postal code 53186",
+            "match": {
+              "arguments": [
+                {
+                  "val": "53186",
+                  "offset": 20
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_postal_code(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108937573,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": ": enter country UNITED STATES",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UNITED STATES",
+                  "offset": 16
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_country(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 273875668,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": ": enter username gvenkat2642@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gvenkat2642@gmail.com",
+                  "offset": 17
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 174346965,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": ": enter password test1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 17
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 178218971,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": ": enter confirm password test1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 25
+                }
+              ],
+              "location": "RegisterProfileStepDefinition.enter_confirm_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1736253843,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": ": click on submit button",
+            "match": {
+              "location": "RegisterProfileStepDefinition.click_on_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 275627,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": ": Registration completed successfully.",
+            "match": {
+              "location": "RegisterProfileStepDefinition.registration_completed_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Profile functionality of New Tours Applicaiton",
+    "description": "",
+    "id": "profile-functionality-of-new-tours-applicaiton",
+    "keyword": "Feature",
+    "uri": "./src/test/resources/features/registerprofile.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6043079753,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUP()"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "update the profile",
+        "description": "",
+        "id": "verify-update-profile-functionality-in-new-tours-application;update-the-profile;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2141876722,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowsers()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25646124,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user open the browser and load the new tours application url",
+            "match": {
+              "location": "UpdateProfileStepDefinition.user_open_the_browser_and_load_the_new_tours_application_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 74713727,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "verify home page displayed",
+            "match": {
+              "location": "UpdateProfileStepDefinition.verify_home_page_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 733462585,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "click on Sign-On link",
+            "match": {
+              "location": "UpdateProfileStepDefinition.click_on_Sign_On_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 164935108,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "enter user name gvkishore.kish@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gvkishore.kish@gmail.com",
+                  "offset": 16
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_user_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1649681749,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "enter password test1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 15
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_password(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38470465,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "verify dashboard page displayed",
+            "match": {
+              "location": "UpdateProfileStepDefinition.verify_dashboard_page_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 494426870,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user click on Profile link",
+            "match": {
+              "location": "UpdateProfileStepDefinition.user_click_on_Profile_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41782258,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "profile page should be displayed",
+            "match": {
+              "location": "UpdateProfileStepDefinition.profile_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 189467630,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "enter First name kishore",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kishore",
+                  "offset": 17
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_First_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 148231933,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "enter Last name ganga",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ganga",
+                  "offset": 16
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_Last_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 176241367,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "enter Phone 8324999009",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8324999009",
+                  "offset": 12
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_Phone(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 237942166,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "enter Email gvkishore.kish@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gvkishore.kish@gmail.com",
+                  "offset": 12
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_Email(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 199296767,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "enter Address springdaleRoad",
+            "match": {
+              "arguments": [
+                {
+                  "val": "springdaleRoad",
+                  "offset": 14
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_Address(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 170977145,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "enter City waukesha",
+            "match": {
+              "arguments": [
+                {
+                  "val": "waukesha",
+                  "offset": 11
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_City(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 157954403,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "enter State wi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "wi",
+                  "offset": 12
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_State(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 146281636,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "enter Postal Code 53186",
+            "match": {
+              "arguments": [
+                {
+                  "val": "53186",
+                  "offset": 18
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_Postal_Code(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117453854,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "enter Country UNITED STATES",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UNITED STATES",
+                  "offset": 14
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_Country(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 722185339,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "click on Submit Button",
+            "match": {
+              "location": "UpdateProfileStepDefinition.click_on_Submit_Button()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@important"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8042354846,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUP()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "update the profile",
+        "description": "",
+        "id": "verify-update-profile-functionality-in-new-tours-application;update-the-profile;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 71274789,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowsers()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2289070,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user open the browser and load the new tours application url",
+            "match": {
+              "location": "UpdateProfileStepDefinition.user_open_the_browser_and_load_the_new_tours_application_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 98212434,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "verify home page displayed",
+            "match": {
+              "location": "UpdateProfileStepDefinition.verify_home_page_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 593166666,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "click on Sign-On link",
+            "match": {
+              "location": "UpdateProfileStepDefinition.click_on_Sign_On_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 164690201,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "enter user name gvkishore.kish@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gvkishore.kish@gmail.com",
+                  "offset": 16
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_user_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1582362168,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "enter password test1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 15
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_password(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44463436,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "verify dashboard page displayed",
+            "match": {
+              "location": "UpdateProfileStepDefinition.verify_dashboard_page_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 546583973,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user click on Profile link",
+            "match": {
+              "location": "UpdateProfileStepDefinition.user_click_on_Profile_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43015754,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "profile page should be displayed",
+            "match": {
+              "location": "UpdateProfileStepDefinition.profile_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 185089596,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "enter First name kishore",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kishore",
+                  "offset": 17
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_First_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 136418792,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "enter Last name ganga",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ganga",
+                  "offset": 16
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_Last_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 175454592,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "enter Phone 8324999009",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8324999009",
+                  "offset": 12
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_Phone(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 238818541,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "enter Email gvkishore.kish@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gvkishore.kish@gmail.com",
+                  "offset": 12
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_Email(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 168817782,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "enter Address springdaleRoad",
+            "match": {
+              "arguments": [
+                {
+                  "val": "springdaleRoad",
+                  "offset": 14
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_Address(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 149055827,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "enter City waukesha",
+            "match": {
+              "arguments": [
+                {
+                  "val": "waukesha",
+                  "offset": 11
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_City(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130612276,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "enter State wi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "wi",
+                  "offset": 12
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_State(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137371968,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "enter Postal Code 53186",
+            "match": {
+              "arguments": [
+                {
+                  "val": "53186",
+                  "offset": 18
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_Postal_Code(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117105693,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "enter Country UNITED STATES",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UNITED STATES",
+                  "offset": 14
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_Country(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 510228497,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "click on Submit Button",
+            "match": {
+              "location": "UpdateProfileStepDefinition.click_on_Submit_Button()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@important"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5648227666,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUP()"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "update the profile",
+        "description": "",
+        "id": "verify-update-profile-functionality-in-new-tours-application;update-the-profile;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 124755413,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowsers()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1727149,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user open the browser and load the new tours application url",
+            "match": {
+              "location": "UpdateProfileStepDefinition.user_open_the_browser_and_load_the_new_tours_application_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 60040635,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "verify home page displayed",
+            "match": {
+              "location": "UpdateProfileStepDefinition.verify_home_page_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 456402699,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "click on Sign-On link",
+            "match": {
+              "location": "UpdateProfileStepDefinition.click_on_Sign_On_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 172880935,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "enter user name gvkishore.kish@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gvkishore.kish@gmail.com",
+                  "offset": 16
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_user_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1634511163,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "enter password test1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 15
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_password(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46950054,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "verify dashboard page displayed",
+            "match": {
+              "location": "UpdateProfileStepDefinition.verify_dashboard_page_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 573861246,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user click on Profile link",
+            "match": {
+              "location": "UpdateProfileStepDefinition.user_click_on_Profile_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38758039,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "profile page should be displayed",
+            "match": {
+              "location": "UpdateProfileStepDefinition.profile_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 178207025,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "enter First name kishore",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kishore",
+                  "offset": 17
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_First_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 140724720,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "enter Last name ganga",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ganga",
+                  "offset": 16
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_Last_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 174144297,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "enter Phone 8324999009",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8324999009",
+                  "offset": 12
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_Phone(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 235383015,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "enter Email gvkishore.kish@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gvkishore.kish@gmail.com",
+                  "offset": 12
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_Email(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 180255454,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "enter Address springdaleRoad",
+            "match": {
+              "arguments": [
+                {
+                  "val": "springdaleRoad",
+                  "offset": 14
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_Address(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 157254242,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "enter City waukesha",
+            "match": {
+              "arguments": [
+                {
+                  "val": "waukesha",
+                  "offset": 11
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_City(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 126699310,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "enter State wi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "wi",
+                  "offset": 12
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_State(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142058909,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "enter Postal Code 53186",
+            "match": {
+              "arguments": [
+                {
+                  "val": "53186",
+                  "offset": 18
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_Postal_Code(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 111235176,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "enter Country UNITED STATES",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UNITED STATES",
+                  "offset": 14
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_Country(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 748668585,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "click on Submit Button",
+            "match": {
+              "location": "UpdateProfileStepDefinition.click_on_Submit_Button()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@important"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5995677006,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUP()"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "update the profile",
+        "description": "",
+        "id": "verify-update-profile-functionality-in-new-tours-application;update-the-profile;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 81175178,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowsers()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2417925,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user open the browser and load the new tours application url",
+            "match": {
+              "location": "UpdateProfileStepDefinition.user_open_the_browser_and_load_the_new_tours_application_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 84786918,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "verify home page displayed",
+            "match": {
+              "location": "UpdateProfileStepDefinition.verify_home_page_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 436178238,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "click on Sign-On link",
+            "match": {
+              "location": "UpdateProfileStepDefinition.click_on_Sign_On_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 169648503,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "enter user name gvkishore.kish@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gvkishore.kish@gmail.com",
+                  "offset": 16
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_user_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1725424171,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "enter password test1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 15
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_password(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49766058,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "verify dashboard page displayed",
+            "match": {
+              "location": "UpdateProfileStepDefinition.verify_dashboard_page_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 737550485,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user click on Profile link",
+            "match": {
+              "location": "UpdateProfileStepDefinition.user_click_on_Profile_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57276684,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "profile page should be displayed",
+            "match": {
+              "location": "UpdateProfileStepDefinition.profile_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 168485835,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "enter First name kishore",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kishore",
+                  "offset": 17
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_First_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 152506287,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "enter Last name ganga",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ganga",
+                  "offset": 16
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_Last_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 178445105,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "enter Phone 8324999009",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8324999009",
+                  "offset": 12
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_Phone(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 242349213,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "enter Email gvkishore.kish@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gvkishore.kish@gmail.com",
+                  "offset": 12
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_Email(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 166600391,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "enter Address springdaleRoad",
+            "match": {
+              "arguments": [
+                {
+                  "val": "springdaleRoad",
+                  "offset": 14
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_Address(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 138121623,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "enter City waukesha",
+            "match": {
+              "arguments": [
+                {
+                  "val": "waukesha",
+                  "offset": 11
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_City(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 136211006,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "enter State wi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "wi",
+                  "offset": 12
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_State(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 159636753,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "enter Postal Code 53186",
+            "match": {
+              "arguments": [
+                {
+                  "val": "53186",
+                  "offset": 18
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_Postal_Code(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 134897297,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "enter Country UNITED STATES",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UNITED STATES",
+                  "offset": 14
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.enter_Country(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1329275442,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "click on Submit Button",
+            "match": {
+              "location": "UpdateProfileStepDefinition.click_on_Submit_Button()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@important"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Update Profile Functionality in New Tours application",
+    "description": "",
+    "id": "verify-update-profile-functionality-in-new-tours-application",
+    "keyword": "Feature",
+    "uri": "./src/test/resources/features/updateprofile.feature"
+  }
+]

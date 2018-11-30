@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Tests in different browsers]">
+  <test thread-count="5" verbose="0" name="Running In chrome(failed)">
+    <groups>
+      <run>
+        <include name="InvalidCredentials"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.demoaut.tours.tests.LogIntoNewTours">
+        <methods>
+          <include name="logInWithInvalidCredentials"/>
+        </methods>
+      </class> <!-- com.demoaut.tours.tests.LogIntoNewTours -->
+    </classes>
+  </test> <!-- Running In chrome(failed) -->
+</suite> <!-- Failed suite [Tests in different browsers] -->

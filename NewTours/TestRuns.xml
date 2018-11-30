@@ -1,0 +1,26 @@
+
+<suite name="Tests in different browsers">
+
+
+	<test name="Running In chrome">
+
+		<!-- <groups> <run> <include name="InvalidCredentials" /> </run> </groups> -->
+
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.demoaut.tours.tests.LogIntoNewTours" />
+			<class name="com.demoaut.tours.tests.RegisterForNewTours" />
+		</classes>
+
+	</test>
+
+
+</suite>
+
+
+<!-- <classes> <class name="com.demoaut.tours.tests.LogIntoNewTours" /> <class 
+	name="com.demoaut.tours.tests.RegisterForNewTours" /> </classes> -->
+		
+		
+
+
